@@ -8,14 +8,26 @@
   --our-team: #f4f4fd;
   --nav: #e7e9fc;
 }
+
+.Main-header {
+  border-bottom: 1px solid #e7e9fc;
+}
 a {
   color: var(--text);
   text-decoration: none;
 }
 
-a:active {
-  color: var(--button-color-hover);
+.Mail,
+.Tell {
+  font-style: normal;
   text-decoration: none;
+}
+
+.Mail:hover,
+.Tell:hover,
+.Mail:focus,
+.Tell:focus {
+  color: var(--button-color-hover);
 }
 
 ul {
@@ -25,32 +37,29 @@ ul {
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  color: var(--hero-background);
 }
 
-.Head {
-  color: red;
+.Logo,
+.Studio,
+.Studio-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .Logo {
   color: var(--button-color-normal);
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-decoration: none;
 }
-.Studio {
-  color: var(--hero-background);
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
+
+.Studio-footer {
+  color: var(--our-team);
 }
+
 .Menu {
   list-style-type: none;
   font-weight: 500;
@@ -59,8 +68,13 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.Menu:active {
+
+.Menu:hover,
+.Menu:focus {
   color: var(--button-color-hover);
+  text-decoration: none;
+  border-bottom: 2px solid var(--button-color-hover);
+  border-radius: 2px;
 }
 
 .Adress {
@@ -78,12 +92,29 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
-  background: var(--button-color-normal);
+  background-color: var(--button-color-normal);
   color: var(--bg-color);
+  cursor: pointer;
 }
+
 .Button:hover,
 .Button:focus {
-  background: var(--button-color-hover);
+  background-color: var(--button-color-hover);
+  color: var(--bg-color);
+}
+.Buttons {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  background-color: var(--nav);
+  color: var(--button-color-normal);
+  cursor: pointer;
+}
+.Buttons:hover,
+.Buttons:focus {
+  background-color: var(--button-color-hover);
   color: var(--bg-color);
 }
 .Main-text {
@@ -93,9 +124,11 @@ body {
   letter-spacing: 0.02em;
   color: var(--bg-color);
 }
+
 .Section-1 {
-  background: var(--hero-background);
+  background-color: var(--hero-background);
 }
+
 .Header {
   font-weight: 700;
   font-size: 36px;
@@ -103,13 +136,14 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
 .Content-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--hero-background);
 }
+
 .Content {
   font-weight: 400;
   font-size: 16px;
@@ -117,11 +151,21 @@ body {
   letter-spacing: 0.02em;
   color: var(--text);
 }
+
 .Our-team {
-  background: var(--our-team);
+  background-color: var(--our-team);
 }
+
 .Frame {
-  background: var(--bg-color);
+  background-color: var(--bg-color);
+  width: 264px;
+  height: 380px;
+  border-radius: 0px 0px 4px 4px;
+}
+.Frame-portfolio {
+  border: 1px solid #e7e9fc;
+  width: 360px;
+  height: 420px;
 }
 .Footer {
   background: var(--hero-background);
@@ -131,5 +175,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--bg-color);
+  color: var(--our-team);
 }
