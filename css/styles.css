@@ -30,10 +30,6 @@ a {
   color: var(--button-color-hover);
 }
 
-ul {
-  list-style-type: none;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -96,6 +92,7 @@ body {
   background-color: var(--button-color-normal);
   color: var(--bg-color);
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .button:hover,
@@ -128,6 +125,7 @@ body {
 
 .section-main {
   background-color: var(--hero-background);
+  text-align: center;
 }
 
 .header {
