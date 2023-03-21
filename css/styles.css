@@ -38,6 +38,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   color: var(--hero-background);
+  background-color: var(--bg-color);
+  color: var(--text);
 }
 
 .logo,
