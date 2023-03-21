@@ -1,5 +1,5 @@
 :root {
-  --bg-color: #ffff;
+  --bg-color: #ffffff;
   --hero-background: #2e2f42;
   --text: #434455;
   --button-color-normal: #4d5ae5;
@@ -37,7 +37,6 @@ ul {
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: var(--hero-background);
   background-color: var(--bg-color);
   color: var(--text);
 }
