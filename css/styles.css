@@ -40,52 +40,25 @@ body {
   letter-spacing: 0.03em;
 }
 .menu {
-  color: var(--hero-background);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--hero-background);
 }
 .menu:hover,
 .menu:focus {
   color: var(--button-color-hover);
 }
-.mail,
-.tell {
+.contacts {
   color: var(--text);
   font-style: normal;
-}
-.mail:hover,
-.mail:focus,
-.tell:hover,
-.tell:focus {
-  color: var(--button-color-hover);
-}
-.section-main {
-  background-color: var(--hero-background);
-  text-align: center;
-}
-.main-text {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--bg-color);
-}
-.button {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
-  border-radius: 4px;
-  background-color: var(--button-color-normal);
-  color: var(--bg-color);
-  cursor: pointer;
+  letter-spacing: 0.02em;
 }
-.button:hover,
-.button:focus {
-  background-color: var(--button-color-hover);
-  color: var(--bg-color);
+.contacts:hover,
+.contacts:focus {
+  color: var(--button-color-hover);
 }
