@@ -9,8 +9,11 @@
   --nav: #e7e9fc;
 }
 
-link {
+.link {
   text-decoration: none;
+}
+.list {
+  list-style: none;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -19,12 +22,9 @@ body {
   color: var(--text);
 }
 
-.ul-nav {
-  list-style: none;
-}
 .logo {
   color: var(--button-color-normal);
-  text-decoration: none;
+
   text-transform: uppercase;
   font-family: Raleway, sans-serif;
   font-weight: 800;
