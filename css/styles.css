@@ -39,33 +39,15 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-.menu-studio {
+.menu {
   color: var(--hero-background);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.menu-portfolio {
-  color: var(--hero-background);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.menu-contacts {
-  color: var(--hero-background);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.menu-studio:hover,
-.menu-studio:focus,
-.menu-portfolio:hover,
-.menu-portfolio:focus,
-.menu-contacts:hover,
-.menu-contacts:focus {
+.menu:hover,
+.menu:focus {
   color: var(--button-color-hover);
 }
 .mail,
