@@ -9,6 +9,9 @@
   --nav: #e7e9fc;
 }
 
+link {
+  text-decoration: none;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
