@@ -170,6 +170,7 @@ body {
   border-radius: 4px;
   padding: 12px 24px;
   color: var(--button-color-normal);
+  cursor: pointer;
 }
 .buttons:hover,
 .buttons:focus {
