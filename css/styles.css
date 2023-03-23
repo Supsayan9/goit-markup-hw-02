@@ -44,8 +44,36 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.menu:hover,
-.menu:focus {
+.menu-studio {
+  text-decoration: none;
+  color: var(--hero-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.menu-portfolio {
+  text-decoration: none;
+  color: var(--hero-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.menu-contacts {
+  text-decoration: none;
+  color: var(--hero-background);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.menu-studio:hover,
+.menu-studio:focus,
+.menu-portfolio:hover,
+.menu-portfolio:focus,
+.menu-contacts:hover,
+.menu-contacts:focus {
   color: var(--button-color-hover);
   text-decoration: none;
 }
