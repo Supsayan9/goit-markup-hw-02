@@ -9,27 +9,6 @@
   --nav: #e7e9fc;
 }
 
-.main-header {
-  border-bottom: 1px solid #e7e9fc;
-}
-a {
-  color: var(--text);
-  text-decoration: none;
-}
-
-.mail,
-.tell {
-  font-style: normal;
-  text-decoration: none;
-}
-
-.mail:hover,
-.tell:hover,
-.mail:focus,
-.tell:focus {
-  color: var(--button-color-hover);
-}
-
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -37,35 +16,26 @@ body {
   color: var(--text);
 }
 
-.logo,
-.studio,
-.studio-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
+.ul-nav {
+  list-style: none;
 }
-
 .logo {
   color: var(--button-color-normal);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
 }
-
-.studio-footer {
-  color: var(--our-team);
+.studio {
+  color: var(--hero-background);
 }
-
 .menu {
-  list-style-type: none;
+  text-decoration: none;
+  color: var(--hero-background);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
-
 .menu:hover,
 .menu:focus {
   color: var(--button-color-hover);
@@ -73,106 +43,15 @@ body {
   border-bottom: 2px solid var(--button-color-hover);
   border-radius: 2px;
 }
-
-.adress {
-  list-style-type: none;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  border-radius: 4px;
-  background-color: var(--button-color-normal);
-  color: var(--bg-color);
-  cursor: pointer;
-  font-family: "Roboto", sans-serif;
-}
-
-.button:hover,
-.button:focus {
-  background-color: var(--button-color-hover);
-  color: var(--bg-color);
-}
-.buttons {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  border-radius: 4px;
-  background-color: var(--nav);
-  color: var(--button-color-normal);
-  cursor: pointer;
-}
-.buttons:hover,
-.buttons:focus {
-  background-color: var(--button-color-hover);
-  color: var(--bg-color);
-}
-.main-text {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: var(--bg-color);
-}
-
-.section-main {
-  background-color: var(--hero-background);
-  text-align: center;
-}
-
-.header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-.content-header {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
-.content {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.mail,
+.tell {
   color: var(--text);
+  font-style: normal;
+  text-decoration: none;
 }
-
-.our-team {
-  background-color: var(--our-team);
-}
-
-.frame {
-  background-color: var(--bg-color);
-  width: 264px;
-  height: 380px;
-  border-radius: 0px 0px 4px 4px;
-}
-.frame-portfolio {
-  border: 1px solid #e7e9fc;
-  width: 360px;
-  height: 420px;
-}
-.footer {
-  background: var(--hero-background);
-}
-.footer-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--our-team);
+.mail:hover,
+.mail:focus,
+.tell:hover,
+.tell:focus {
+  color: var(--button-color-hover);
 }
