@@ -158,3 +158,36 @@ body {
   width: 264px;
   height: 380px;
 }
+.buttons {
+  background: var(--our-team);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--button-color-normal);
+}
+.buttons:hover,
+.buttons:focus {
+  background: var(--button-color-hover);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--bg-color);
+}
