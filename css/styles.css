@@ -36,7 +36,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
 }
-
 .menu-studio {
   text-decoration: none;
   color: var(--hero-background);
@@ -81,4 +80,31 @@ body {
 .tell:hover,
 .tell:focus {
   color: var(--button-color-hover);
+}
+.section-main {
+  background-color: var(--hero-background);
+  text-align: center;
+}
+.main-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--bg-color);
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  background-color: var(--nav);
+  color: var(--button-color-normal);
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--button-color-hover);
+  color: var(--bg-color);
 }
