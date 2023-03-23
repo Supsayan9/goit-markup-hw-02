@@ -92,13 +92,14 @@ body {
   color: var(--bg-color);
 }
 .button {
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
-  background-color: var(--nav);
-  color: var(--button-color-normal);
+  background-color: var(--button-color-normal);
+  color: var(--bg-color);
   cursor: pointer;
 }
 .button:hover,
