@@ -11,6 +11,8 @@
 
 .header-line{
   border-bottom: 1px solid #E7E9FC;
+  width: 1440px;
+  height: 72px;
 }
 .link {
   text-decoration: none;
@@ -55,9 +57,13 @@ body {
 .menu:hover,
 .menu:focus {
   color: var(--button-color-hover);
+  border-bottom: 2px solid var(--button-color-hover);
+  border-radius: 2px;
 }
 .address {
   font-style: normal;
+  margin-left: auto;
+  text-align: right;
 }
 .contacts {
   color: var(--text);
@@ -213,4 +219,10 @@ body {
 }
 .foto-box{
   display: flex;
+}
+.menu-box{
+  display: inline-flex;
+}
+.contact-box{
+  display: inline-flex;
 }
